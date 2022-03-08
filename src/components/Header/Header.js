@@ -6,6 +6,9 @@ import { Link, NavLink } from 'react-router-dom'
 
 const authenticatedOptions = (
   <>
+    <NavLink to='/events' className='nav-link'>Events</NavLink>
+    <NavLink to='/events/create' className='nav-link'>Create An Event</NavLink>
+
     <NavLink to='/change-password' className='nav-link'>Change Password</NavLink>
     <NavLink to='/sign-out' className='nav-link'>Sign Out</NavLink>
   </>
