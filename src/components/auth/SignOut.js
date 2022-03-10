@@ -12,7 +12,7 @@ const SignOut = ({ msgAlert, clearUser, user }) => {
   useEffect(() => {
   // for performance reasons, when using `useEffect`
   // it's a best practice to create a helper function w/ async/await
-    const performSignOut = async () => {
+    const performSignOut = async (user) => {
     // make a signOut axios request
       await signOut(user)
 
@@ -26,7 +26,7 @@ const SignOut = ({ msgAlert, clearUser, user }) => {
       clearUser()
       setShouldNavigate(true)
     }
-    performSignOut()
+    performSignOut(user)
   }, [])
 
   if (!user || shouldNavigate) {

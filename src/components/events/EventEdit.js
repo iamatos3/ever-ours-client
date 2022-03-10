@@ -7,6 +7,8 @@ import { showEvent, updateEvent } from '../../api/events'
 const EventEdit = ({ user, msgAlert }) => {
   const [title, setTitle] = useState('')
   const [location, setLocation] = useState('')
+  const [capacity, setCapacity] = useState('')
+  const [attire, setAttire] = useState('')
   const [updated, setUpdated] = useState(false)
   const { id } = useParams()
 
@@ -36,7 +38,7 @@ const EventEdit = ({ user, msgAlert }) => {
     event.preventDefault()
 
     try {
-      await updateEvent(id, title, location, user)
+      await updateEvent(id, title, location, capacity, attire, user)
       setUpdated(true)
     } catch (error) {
       msgAlert({
@@ -60,8 +62,13 @@ const EventEdit = ({ user, msgAlert }) => {
           handleSubmit={handleSubmit}
           title={title}
           location={location}
+          capacity={capacity}
+          attire={attire}
           setTitle={setTitle}
           setLocation={setLocation}
+          setCapacity={setCapacity}
+          setAttire={setAttire}
+          user={user}
         />
       </div>
     </div>

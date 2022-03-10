@@ -45,7 +45,7 @@ export const updateEvent = (id, title, location, capacity, attire, user) => {
 
 // CREATE
 export const createEvent = (title, location, capacity, attire, user) => {
-  return axios.patch(
+  return axios.post(
     `${apiUrl}/events/`,
     { event: { title, location, capacity, attire } },
     {

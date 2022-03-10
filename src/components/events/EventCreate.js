@@ -8,14 +8,17 @@ import { createEvent } from '../../api/events'
 const EventCreate = ({ user, msgAlert }) => {
   const [title, setTitle] = useState('')
   const [location, setLocation] = useState('')
+  const [capacity, setCapacity] = useState('')
+  const [attire, setAttire] = useState('')
   const [createdId, setCreatedId] = useState(null)
 
-  const handleSubmit = async event => {
+  const handleSubmit = async (event) => {
     event.preventDefault()
 
     try {
-      const res = await createEvent(title, location, user)
+      const res = await createEvent(title, location, capacity, attire, user)
       setCreatedId(res.data.event._id)
+      console.log(res.data.event._id)
 
       msgAlert({
         heading: 'Event Created',
@@ -46,8 +49,13 @@ const EventCreate = ({ user, msgAlert }) => {
           handleSubmit={handleSubmit}
           title={title}
           location={location}
-          setTitle={setTitle}
+          capacity={capacity}
+          attire={attire}
+          setTitle={ setTitle }
           setLocation={ setLocation }
+          setCapacity={ setCapacity }
+          setAttire={ setAttire }
+          user={user}
         />
       </div>
     </div>

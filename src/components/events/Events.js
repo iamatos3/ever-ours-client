@@ -15,7 +15,7 @@ const Events = ({ user, msgAlert }) => {
 
   // Run once when the component mounts
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchData = async (user) => {
       try {
         const res = await indexEvents(user)
         setEvents(res.data.events)
@@ -27,7 +27,7 @@ const Events = ({ user, msgAlert }) => {
         })
       }
     }
-    fetchData()
+    fetchData(user)
   }, [])
 
   // Three States:
