@@ -64,14 +64,14 @@ DELETE | /resources/:id
 ## Images
 
 #### App Screenshot:
-![screenshot]()
+[screenshot]()
 
 ---
 
 #### Wireframe:
-![wireframes](https://jamboard.google.com/d/1LCl1D8SGJ1om7hpweGJfnpNJjJcjSf6VNrn5t96ScOA/viewer?f=0)
+[wireframes](https://jamboard.google.com/d/1LCl1D8SGJ1om7hpweGJfnpNJjJcjSf6VNrn5t96ScOA/viewer?f=0)
 
 ---
 
 #### ERD:
-![ERD](https://jamboard.google.com/d/1LCl1D8SGJ1om7hpweGJfnpNJjJcjSf6VNrn5t96ScOA/viewer?f=2)
+[ERD](https://jamboard.google.com/d/1LCl1D8SGJ1om7hpweGJfnpNJjJcjSf6VNrn5t96ScOA/viewer?f=2)
