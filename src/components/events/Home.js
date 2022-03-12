@@ -23,7 +23,7 @@ const Home = () => {
     <div style={titleStyle}>
       <h1>Ever Ours</h1>
       <div style={homeStyle}>
-        <h4>Create your Dream Event and share with Family + Friends!</h4>
+        <h4>Create your Dream Events to share with Family + Friends!</h4>
       </div>
     </div>
   )
