@@ -28,17 +28,15 @@ const alwaysOptions = (
 )
 
 const Header = ({ user }) => (
-  <Navbar bg='primary' variant='dark' expand='md'>
+  <Navbar bg='dark' variant='dark' expand='md'>
     <Container>
       <Navbar.Brand>
-        <Link to='/' style={{ color: '#FFF', textDecoration: 'none' }}>Ever Ours</Link>
+        <Link to='/' style={{ color: '#fae1dd', textDecoration: 'none' }}>Ever Ours</Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
         <Nav className='ms-auto'>
-          {user && (
-            <span className='navbar-text me-2'>Welcome, {user.email}</span>
-          )}
+          {user && <span className='navbar-text me-2'>Welcome, {user.email}</span>}
           {alwaysOptions}
           {user ? authenticatedOptions : unauthenticatedOptions}
         </Nav>

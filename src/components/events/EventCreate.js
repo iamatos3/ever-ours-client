@@ -5,6 +5,15 @@ import { Navigate } from 'react-router-dom'
 import EventForm from './EventForm'
 import { createEvent } from '../../api/events'
 
+const homeStyle = {
+  backgroundColor: '#264653',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  height: 'auto',
+  color: 'white'
+}
+
 const EventCreate = ({ user, msgAlert }) => {
   const [title, setTitle] = useState('')
   const [location, setLocation] = useState('')
@@ -42,7 +51,7 @@ const EventCreate = ({ user, msgAlert }) => {
     return <Navigate to={`/events/${createdId}`}/>
   }
   return (
-    <div className='row'>
+    <div className='row' style={homeStyle}>
       <div className='col-sm-10 col-md-8 mx-auto mt-5'>
         <h3>Create Event</h3>
         <EventForm

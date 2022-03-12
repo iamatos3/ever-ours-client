@@ -4,6 +4,15 @@ import { Link, Navigate } from 'react-router-dom'
 import { Spinner } from 'react-bootstrap'
 import { indexEvents } from '../../api/events'
 
+const homeStyle = {
+  backgroundColor: '#264653',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  height: 'auto',
+  color: 'white'
+}
+
 const Events = ({ user, msgAlert }) => {
   const [events, setEvents] = useState(null)
 
@@ -50,7 +59,7 @@ const Events = ({ user, msgAlert }) => {
     ))
 
     return (
-      <div className='row'>
+      <div className='row' style={homeStyle}>
         <div className='col-sm-10 col-md-8 mx-auto mt-5'>
           <h3>Events</h3>
           <ul>{eventsList}</ul>

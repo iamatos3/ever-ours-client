@@ -4,6 +4,15 @@ import { Spinner, Button } from 'react-bootstrap'
 
 import { deleteEvent, showEvent } from '../../api/events'
 
+const homeStyle = {
+  backgroundColor: '#264653',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  height: 'auto',
+  color: 'white'
+}
+
 const Event = ({ user, msgAlert }) => {
   const [event, setEvent] = useState(null)
   const [deleted, setDeleted] = useState(false)
@@ -55,7 +64,7 @@ const Event = ({ user, msgAlert }) => {
   } else {
     // We have an event to display
     return (
-      <div className='row'>
+      <div className='row' style={homeStyle}>
         <div className='col-sm-10 col-md-8 mx-auto mt-5'>
           <h3>{event.title}</h3>
           <p>Location: {event.location}</p>
