@@ -31,7 +31,7 @@ const Header = ({ user }) => (
   <Navbar bg='dark' variant='dark' expand='md'>
     <Container>
       <Navbar.Brand>
-        <Link to='/' style={{ color: '#fae1dd', textDecoration: 'none' }}>Ever Ours</Link>
+        <Link to='/' style={{ color: 'white', textDecoration: 'none' }}>Ever Ours</Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>

@@ -8,11 +8,10 @@ const Home = () => {
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column',
-    color: '#fae1dd'
+    color: 'white'
   }
 
   const homeStyle = {
-    backgroundColor: '#d9ae94',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
