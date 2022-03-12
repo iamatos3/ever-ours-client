@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ever-ours-client/static/css/main.cd5c31aa.chunk.css",
-    "main.js": "/ever-ours-client/static/js/main.467c53b8.chunk.js",
-    "main.js.map": "/ever-ours-client/static/js/main.467c53b8.chunk.js.map",
+    "main.css": "/ever-ours-client/static/css/main.95cb0944.chunk.css",
+    "main.js": "/ever-ours-client/static/js/main.1ca13d5d.chunk.js",
+    "main.js.map": "/ever-ours-client/static/js/main.1ca13d5d.chunk.js.map",
     "runtime-main.js": "/ever-ours-client/static/js/runtime-main.ac34033d.js",
     "runtime-main.js.map": "/ever-ours-client/static/js/runtime-main.ac34033d.js.map",
     "static/css/2.d45d6843.chunk.css": "/ever-ours-client/static/css/2.d45d6843.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.d9e3051d.chunk.js.map": "/ever-ours-client/static/js/2.d9e3051d.chunk.js.map",
     "index.html": "/ever-ours-client/index.html",
     "static/css/2.d45d6843.chunk.css.map": "/ever-ours-client/static/css/2.d45d6843.chunk.css.map",
-    "static/css/main.cd5c31aa.chunk.css.map": "/ever-ours-client/static/css/main.cd5c31aa.chunk.css.map",
+    "static/css/main.95cb0944.chunk.css.map": "/ever-ours-client/static/css/main.95cb0944.chunk.css.map",
     "static/js/2.d9e3051d.chunk.js.LICENSE.txt": "/ever-ours-client/static/js/2.d9e3051d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ac34033d.js",
     "static/css/2.d45d6843.chunk.css",
     "static/js/2.d9e3051d.chunk.js",
-    "static/css/main.cd5c31aa.chunk.css",
-    "static/js/main.467c53b8.chunk.js"
+    "static/css/main.95cb0944.chunk.css",
+    "static/js/main.1ca13d5d.chunk.js"
   ]
 }
