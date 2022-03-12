@@ -64,12 +64,13 @@ DELETE | /resources/:id
 ## Images
 
 #### App Screenshot:
-[screenshot]()
+![Screenshot](https://user-images.githubusercontent.com/88846920/158029977-78cdfc61-24fb-4434-92b8-3c93b5171414.png)
+
 
 ---
 
 #### Wireframe:
-[wireframes](https://jamboard.google.com/d/1LCl1D8SGJ1om7hpweGJfnpNJjJcjSf6VNrn5t96ScOA/viewer?f=0)
+[Wireframes](https://jamboard.google.com/d/1LCl1D8SGJ1om7hpweGJfnpNJjJcjSf6VNrn5t96ScOA/viewer?f=0)
 
 ---
 
