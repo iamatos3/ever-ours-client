@@ -12,7 +12,7 @@ const Home = () => {
   }
 
   const homeStyle = {
-    backgroundColor: '#264653',
+    backgroundColor: '#d9ae94',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',

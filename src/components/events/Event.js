@@ -5,7 +5,7 @@ import { Spinner, Button } from 'react-bootstrap'
 import { deleteEvent, showEvent } from '../../api/events'
 
 const homeStyle = {
-  backgroundColor: '#264653',
+  backgroundColor: '#d9ae94',
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
